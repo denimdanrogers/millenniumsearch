@@ -1,4 +1,10 @@
 Millenniumsearch::Application.routes.draw do
+  root "pages#home"
+  get "about" => "pages#about"
+  get "foremployers" => "pages#foremployers"
+  get "forjobseekers" => "pages#forjobseekers"
+  get "oursuccess" => "pages#oursuccess"
+  get "contactus" => "pages#contactus"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
